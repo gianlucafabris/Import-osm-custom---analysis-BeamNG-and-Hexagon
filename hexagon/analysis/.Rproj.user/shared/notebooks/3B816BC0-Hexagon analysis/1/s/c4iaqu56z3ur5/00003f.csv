@@ -1,0 +1,23 @@
+"0","
+plot_3var(
+  raw, ""Raw - position x y and speed spatial"",
+  raw$position_x-min(raw$position_x), c(0, floor(max(raw$position_x-min(raw$position_x)))+1, 100), ""position x"",
+  raw$position_y-min(raw$position_y), c(0, floor(max(raw$position_y-min(raw$position_y)))+1, 100), ""position y"",
+  raw$speed_spatial_norm, c(floor(min(raw$speed_spatial_norm)), floor(max(raw$speed_spatial_norm))+1, 20), ""speed spatial""
+) +
+  geom_point(alpha = 1)
+plot_3var(
+  custom, ""Custom - position x y and speed spatial"",
+  custom$position_x-min(custom$position_x), c(0, floor(max(custom$position_x-min(custom$position_x)))+1, 100), ""position x"",
+  custom$position_y-min(custom$position_y), c(0, floor(max(custom$position_y-min(custom$position_y)))+1, 100), ""position y"",
+  custom$speed_spatial_norm, c(floor(min(custom$speed_spatial_norm)), floor(max(custom$speed_spatial_norm))+1, 20), ""speed spatial""
+) +
+  geom_point(alpha = 1)
+"
+"0","plot_3var("
+"0","  custom_elevation, ""Custom elevation - position x y and speed spatial"","
+"0","  custom_elevation$position_x-min(custom_elevation$position_x), c(0, floor(max(custom_elevation$position_x-min(custom_elevation$position_x)))+1, 100), ""position x"","
+"0","  custom_elevation$position_y-min(custom_elevation$position_y), c(0, floor(max(custom_elevation$position_y-min(custom_elevation$position_y)))+1, 100), ""position y"","
+"0","  custom_elevation$speed_spatial_norm, c(floor(min(custom_elevation$speed_spatial_norm)), floor(max(custom_elevation$speed_spatial_norm))+1, 20), ""speed spatial"""
+"0",") +"
+"0","  geom_point(alpha = 1)"

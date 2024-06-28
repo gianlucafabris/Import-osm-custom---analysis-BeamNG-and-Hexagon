@@ -1,0 +1,4 @@
+"2","Errore in .rs.runSqlForDataCapture(""SELECT \""ciao\"";"", ""X:/Dati/Desktop/scuola/Università/Tesi/04_analisi/beamng/analysis/.Rproj.user/shared/notebooks/D57511E5-Beamng analysis/1/7BA8905Bc427c48a/c9yrch3zxcgk9/000003.rdf"",  : 
+  The 'connection' option (DBI connection) is required for sql chunks.
+"
+"2","Failed to execute SQL chunk"

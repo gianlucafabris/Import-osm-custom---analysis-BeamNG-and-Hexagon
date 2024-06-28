@@ -1,0 +1,17 @@
+"0","plot_2var("
+"0","  custom, ""Custom - speed planar and spatial"","
+"0","  custom$time-min(custom$time), c(0, floor(max(custom$time-min(custom$time)))+1, 10), ""time"","
+"0","  custom$speed_spatial_norm, c(floor(min(custom$speed_spatial_norm)), floor(max(custom$speed_spatial_norm))+1, 20), ""speed planar and spatial"""
+"0",") +"
+"0","  geom_line(aes(y = custom$speed_planar_norm, color = ""speed planar"")) +"
+"0","  geom_line(aes(y = custom$speed_spatial_norm, color = ""speed spatial"")) +"
+"0","  scale_color_manual(values = c(""speed planar"" = ""#86F5FA"", ""speed spatial"" = ""#6B9EE1"")) +"
+"0","  labs(color = ""speed"")"
+"2","Avvertimento:"
+"2"," [38;5;250mUse of `custom$speed_planar_norm` is discouraged.
+[36mℹ[38;5;250m Use `speed_planar_norm` instead.[39m
+"
+"2","Avvertimento:"
+"2"," [38;5;250mUse of `custom$speed_spatial_norm` is discouraged.
+[36mℹ[38;5;250m Use `speed_spatial_norm` instead.[39m
+"

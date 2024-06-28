@@ -1,0 +1,31 @@
+"0","library(tidyr)"
+"0","library(dplyr)"
+"2","
+Caricamento pacchetto: ‘dplyr’
+
+"
+"2","I seguenti oggetti sono mascherati da ‘package:stats’:
+
+    filter, lag
+
+"
+"2","I seguenti oggetti sono mascherati da ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(ggplot2)"
+"0","library(modelr)"
+"0",""
+"0","raw = read.csv(""data/importosm_raw.csv"", header = TRUE, sep = "","")"
+"0","raw2 = read.csv(""data/importosm_raw2.csv"", header = TRUE, sep = "","")"
+"0","raw3 = read.csv(""data/importosm_raw3.csv"", header = TRUE, sep = "","")"
+"0","custom = read.csv(""data/importosm_custom.csv"", header = TRUE, sep = "","")"
+"0","custom2 = read.csv(""data/importosm_custom2.csv"", header = TRUE, sep = "","")"
+"0","custom3 = read.csv(""data/importosm_custom3.csv"", header = TRUE, sep = "","")"
+"0","custom_elevation = read.csv(""data/importosm_custom_elevation.csv"", header = TRUE, sep = "","")"
+"0","custom_elevation2 = read.csv(""data/importosm_custom_elevation2.csv"", header = TRUE, sep = "","")"
+"0","custom_elevation3 = read.csv(""data/importosm_custom_elevation3.csv"", header = TRUE, sep = "","")"
+"0",""
+"0",""
+"0",""
